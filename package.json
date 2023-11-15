@@ -1,0 +1,15 @@
+{
+  "name": "web-tributo",
+  "version": "1.0.0",
+  "description": "Crearemos tu primer  sitio web  de tributo",
+  "main": "index.js",
+  "scripts": {
+    "sass": "sass --watch src/styles.scss:public/styles/styles.css",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sass": "^1.69.5"
+  }
+}
