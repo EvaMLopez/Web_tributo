@@ -4,7 +4,7 @@
   "description": "Crearemos tu primer  sitio web  de tributo",
   "main": "index.js",
   "scripts": {
-    "sassw": "npx sass --watch src/styles.scss:public/styles/styles.css",
+    "sassw": "npx sass --watch ./src/sass/styles.scss:public/css/styles.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "author": "",
