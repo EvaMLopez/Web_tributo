@@ -5,15 +5,23 @@
 @include mixin.flex-center;     
 }
 
-.rrssIcons img {
-    width: 35px;
-    height: 35px;  
-    background-color: $ppal;  
+.rrssIcons {
+ 
+/*     background-color: $ppal;  
     stroke: $ppal;    
     path {
         fill: currentColor !important;
-       }
+       } */
+    border-radius: 50%;
+    border: 2px solid $ppal;
+    background-color: $second;
+    padding: 5px;
+    cursor: pointer;    
 }
+
+svg:hover {
+    fill: black;    
+  }
 
 #searchInput {
     display: flex;

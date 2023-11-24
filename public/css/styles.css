@@ -5,14 +5,21 @@
   align-items: center;
 }
 
-.rrssIcons img {
-  width: 35px;
-  height: 35px;
-  background-color: #F0D07E;
-  stroke: #F0D07E;
+.rrssIcons {
+  /*     background-color: $ppal;  
+      stroke: $ppal;    
+      path {
+          fill: currentColor !important;
+         } */
+  border-radius: 50%;
+  border: 2px solid #F0D07E;
+  background-color: #C8C8C8;
+  padding: 5px;
+  cursor: pointer;
 }
-.rrssIcons img path {
-  fill: currentColor !important;
+
+svg:hover {
+  fill: black;
 }
 
 #searchInput {
