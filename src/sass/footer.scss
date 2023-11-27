@@ -19,8 +19,6 @@
     cursor: pointer;   
 }
 
-
-
 svg:hover {
     fill: black;    
   }
@@ -39,3 +37,11 @@ svg:hover {
     text-align: center;
 }
 
+
+footer {
+    background-color: $second;
+    padding: 10px 0;
+    p {
+        font-size: 12px;
+    }
+}

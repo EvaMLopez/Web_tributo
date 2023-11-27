@@ -38,6 +38,14 @@ svg:hover {
   text-align: center;
 }
 
+footer {
+  background-color: #C8C8C8;
+  padding: 10px 0;
+}
+footer p {
+  font-size: 12px;
+}
+
 /*!
  * Bootstrap  v5.3.2 (https://getbootstrap.com/)
  * Copyright 2011-2023 The Bootstrap Authors
