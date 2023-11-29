@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./public/css/styles.css">
-    <title>Document</title>
+    <title>Tributo a Queen</title>
 </head>
 <body>
     <header>
@@ -17,19 +17,8 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item">
-                    <a class="nav-link" aria-current="page" href="#">Discografía</a>
+                    <a class="nav-link" aria-current="page" href="./public/page/discography/disco.html">Discografía</a>
                   </li>
-<!--                   <li class="nav-item dropdown">
-                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
-                      Discography
-                    </a>
-                    <div class="dropdown-menu"  aria-labelledby="navbarDropdownMenuLink">
-                      <a class="dropdown-item" href="#">Álbumes de estudio</a>
-                      <a class="dropdown-item" href="#">Álbumes en directo</a>
-                      <a class="dropdown-item" href="#">Álbumes recopilatorios</a>
-                    </div>
-                  </li> -->
-
                   <li class="nav-item"><a class="nav-link" href="#">Noticias</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Conciertos</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Galería</a></li>
@@ -39,7 +28,74 @@
                 </ul>
               </div>
             </div>
-          </nav>       
+          </nav>      
+          
+                 <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+            <img src="./public/img/photos/cd1.jpg" class="card-img" alt="...">
+            <div class="card-img-overlay"></div>
+          </div>
+
+          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLive">QUEEN</button>
+         
+          <div class="modal fade" id="modalCD1" tabindex="-1" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
+              <div class="modal-dialog">
+                  <div class="modal-content">
+                      <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="modalCD1">"Queen". Publicación: 13 de julio de 1973</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                      </div>
+                      <div class="modal-body">
+                        <p>1. "Keep Yourself Alive"</p>
+                        <p>2. "Doing All Right"</p>
+                        <p>3. "Great King Rat"</p>
+                        <p>4. "My Fairy King"</p>
+                        <p>5. "Liar"</p>
+                        <p>6. "The Night Comes Down"</p>
+                        <p>7. "Modern Times Rock 'n' Roll"</p>
+                        <p>8. "Son and Daughter"</p>
+                        <p>9. "Jesus"</p>
+                        <p>10. "Seven Seas of Rhye... "</p>
+                      </div>
+                      <div class="modal-footer">
+                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                      </div>
+                  </div>
+              </div>
+          </div>
+          
+      <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded "><img src="./public/img/photos/cd2.jpg" class="card-img" alt="...">
+        <div class="card-img-overlay"></div></div>
+
+        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCD2">QUEEN II</button>
+       
+        <div class="modal fade" id="exampleModalLive" tabindex="-1" aria-labelledby="modalCD2" style="display: none;" aria-hidden="true">
+            <div class="modal-dialog">
+                <div class="modal-content">
+                    <div class="modal-header">
+                        <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"Queen II". Publicación: 8 de marzo de 1974</h1>
+                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                    </div>
+                    <div class="modal-body">
+                      <p>1. "Procession"</p>
+                      <p>2. "Father to Son"</p>
+                      <p>3. "White Queen (As It Began)"</p>
+                      <p>4. "Some Day One Day"</p>
+                      <p>5. "The Loser in the End"</p>
+                      <p>6. "Ogre Battle"</p>
+                      <p>7. "The Fairy Feller's Master-Stroke"</p>
+                      <p>8. "Nevermore"</p>
+                      <p>9. "The March of the Black Queen"</p>
+                      <p>10. "Funny How Love Is"</p>
+                      <p>11. "Seven Seas of Rhye"</p>
+                    </div>
+                    <div class="modal-footer">
+                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+
     </header>
 
     <main>
@@ -51,13 +107,13 @@
             </div>
             <div class="carousel-inner">
               <div class="carousel-item active">
-                <img src="./public/img/photos/photo1.webp" class="d-block w-100" alt="...">
+                <img src="./public/img/photos/photo1.webp" class="d-block img-fluid" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./public/img/photos/photo2.jpg" class="d-block w-100" alt="...">
+                <img src="./public/img/photos/photo2.jpg" class="d-block img-fluid" alt="...">
               </div>
               <div class="carousel-item">
-                <img src="./public/img/photos/photo3.jpg" class="d-block w-100" alt="...">
+                <img src="./public/img/photos/photo3.jpg" class="d-block img-fluid" alt="...">
               </div>
             </div>
             <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
@@ -69,6 +125,8 @@
               <span class="visually-hidden">Siguiente</span>
             </button>
           </div>
+
+
     </main>
 
     <footer>
