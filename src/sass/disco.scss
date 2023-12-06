@@ -1,0 +1,189 @@
+@use 'mixin.scss';
+@import "./vars.scss";
+
+
+/* 
+div {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+} */
+
+
+/* #cds {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+     */
+
+
+
+
+
+
+
+
+
+.card {
+  transition: 1s ease;
+  transform-style: preserve-3d;
+}
+
+.card.flip {
+  transform: rotateY(180deg);
+}
+
+.card.flip .front {
+    transform: rotateY(180deg);
+}
+  
+.card.flip .back {
+    transform: rotateY(180deg); /* Ajuste para cerrar correctamente */
+}
+
+
+.front,
+.back {
+  position: absolute;
+  width: 50vh;
+  backface-visibility: hidden;
+}
+
+.card {
+  width: 50vh;
+  transition: transform 1s;
+  transform-style: preserve-3d;
+  cursor: pointer;
+  position: relative;
+}
+
+.front {
+  z-index: 2;
+  transform: translateY(-500px);
+  margin-top: 500px;
+}
+
+.back {
+  background-color: $second;
+  z-index: 1;
+  width: 50vh;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+
+
+
+.prueba.flip {
+    transform: rotateY(180deg);
+  }
+
+
+
+/*   * {
+  margin: 0px;
+  padding: 0px;
+}
+
+body {
+  height: 100vh;
+}
+
+.texto {
+  margin: 15px;
+}
+
+.prueba {
+  transition: 1s ease;
+  transform-style: preserve-3d;
+}
+
+.prueba:hover {
+  transform: rotateY(180deg);
+}
+
+.delante:hover {
+  display: none !important;
+}
+
+.delante,
+.detras {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  backface-visibility: hidden;
+}
+
+.delante {
+  z-index: 2;
+  transform: translatey(-500px);
+  margin-top: 500px;
+}
+
+.detras {
+  background-color: black;
+  color: white;
+  z-index: 1;
+  width: 100%;
+  height: 100%;
+  transform: rotateY(180deg);
+  border-radius: 10px;
+}
+
+.cajitas {
+  height: 250px;
+  width: 150px;
+  margin: 10px;
+  box-shadow: 1px 2px 5px 0px;
+  border-radius: 10px;
+  background-color: white;
+}
+
+button {
+  margin-top: 150px;
+} */
+
+
+
+
+.card {
+    transition: 1s ease;
+    transform-style: preserve-3d;
+}
+
+.card.flip {
+    transform: rotateY(180deg);
+}
+
+
+.front,
+.back {
+    position: absolute;
+    width: 50vh;
+    backface-visibility: hidden;
+}
+
+.card {
+    width: 50vh;
+    transition: transform 1s;
+    transform-style: preserve-3d;
+    cursor: pointer;
+    position: relative;
+}
+
+.front {
+    z-index: 2;
+    transform: translatey(-500px);
+    margin-top: 500px;
+  }
+  
+.back {
+    background-color: $second;
+    z-index: 1;
+    width: 50vh;
+ /*    width: 100%;
+    height: 100%; */
+    transform: rotateY(180deg);
+    border-radius: 10px;
+  }
