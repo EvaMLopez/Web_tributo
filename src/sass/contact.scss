@@ -1,0 +1,7 @@
+@use 'mixin.scss';
+@import "./vars.scss";
+
+#message, #phone, #name, #email, #lname, #fname {
+    border: 1px solid $ppal;
+
+}
