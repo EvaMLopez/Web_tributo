@@ -30,146 +30,476 @@
     </header>
 
     <main>
-        <section class="containerCd row row-cols-1 row-cols-md-2 g-4">
-            <div class="col">
-                <div class="card">
-                    <div class="cardFront">
-                        <img src="/public/img/photos/cd1.jpg" class="card-img-top" alt="portada CD Queen">
-                        <button class="btnCD btn" onclick="toggleCard(this)">Ver más</button>
-                    </div>
-                    <div class="cardBack card card-body">
-                        <h5 class="card-title">Queen. Publicación: 13 de julio de 1973</h5>
-                        <p class="card-text">
-                            1. "Keep Yourself Alive" <br>
-                            2. "Doing All Right" <br>
-                            3. "Great King Rat" <br>
-                            4. "My Fairy King" <br>
-                            5. "Liar" <br>
-                            6. "The Night Comes Down" <br>
-                            7. "Modern Times Rock 'n' Roll" <br>
-                            8. "Son and Daughter" <br>
-                            9. "Jesus" <br>
-                            10. "Seven Seas of Rhye... " <br>
+      <section class="containerCd row row-cols-1 row-cols-md-3 g-4">
+
+        <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+          <img src="/public/img/photos/cd1.jpg" class="card-img" alt="...">
+          <div class="btnInfo mx-auto mt-1">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD1">Queen</button></div></div>
+        <div class="modal fade" id="modalCD1" tabindex="-1" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="" id="modalCD1">"Queen"</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                    <p class="modal-body">
+                      1. "Keep Yourself Alive" <br>
+                      2. "Doing All Right" <br>
+                      3. "Great King Rat" <br>
+                      4. "My Fairy King" <br>
+                      5. "Liar" <br>
+                      6. "The Night Comes Down" <br>
+                      7. "Modern Times Rock 'n' Roll" <br>
+                      8. "Son and Daughter" <br>
+                      9. "Jesus" <br>
+                      10. "Seven Seas of Rhye... " <br>
+                    </p>
+                  <div class="modal-footer"><p>Publicación: 13 de julio de 1973</p></div>
+                </div>
+              </div>
+            </div>
+            
+        <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+          <img src="/public/img/photos/cd2.jpg" class="card-img" alt="...">
+          <div class="btnInfo mx-auto mt-1">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD2">Queen II</button></div></div>            
+          <div class="modal fade" id="modalCD2" tabindex="-1" aria-labelledby="modalCD2" style="display: none;" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"Queen II"</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div>
+                      <p class="modal-body">
+                        1. "Procession" <br>
+                        2. "Father to Son" <br>
+                        3. "White Queen (As It Began)" <br>
+                        4. "Some Day One Day" <br>
+                        5. "The Loser in the End" <br>
+                        6. "Ogre Battle" <br>
+                        7. "The Fairy Feller's Master-Stroke" <br>
+                        8. "Nevermore" <br>
+                        9. "The March of the Black Queen" <br>
+                        10. "Funny How Love Is" <br>
+                        11. "Seven Seas of Rhye" <br>
+                      </p>
+                      <div class="modal-footer"><p>Publicación: 8 de marzo de 1974</p></div>
+                  </div>
+                </div>
+              </div>
+
+        <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+          <img src="/public/img/photos/cd3.jpg" class="card-img" alt="...">
+          <div class="btnInfo mx-auto mt-1">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD3">Sheer Heart Attack</button></div></div>
+        <div class="modal fade" id="modalCD3" tabindex="-1" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
+          <div class="modal-dialog">
+            <div class="modal-content">
+                  <div class="modal-header">
+                      <h5 class="" id="modalCD3">"Sheer Heart Attack"</h5>
+                      <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button></div><div>
+                  <p class="modal-body">
+                    1. "Brighton Rock" <br>
+                    2. "Killer Queen" <br>
+                    3. "Tenement Funster" <br>
+                    4. "Flick of the Wrist" <br>
+                    5. "Lily of the Valley" <br>
+                    6. "Now I'm Here" <br>
+                    7. "In the Lap of the Gods" <br>
+                    8. "Stone Cold Crazy" <br>
+                    9. "Dear Friends" <br>
+                    10. "Misfire" <br>
+                    11. "Bring Back that Leroy Brown" <br>
+                    12. "She Makes Me" <br>
+                    13. "In the Lap of the Gods... Revisited" <br>
+                    </p>
+                  </div>
+                  <div class="modal-footer"><p>Publicación: 8 de noviembre de 1974</p></div>
+                </div>
+              </div>
+            </div>
+            
+        <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+          <img src="/public/img/photos/cd4.jpg" class="card-img" alt="...">
+          <div class="btnInfo mx-auto mt-1">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD4">A Night at the Opera</button></div></div>            
+          <div class="modal fade" id="modalCD4" tabindex="-1" aria-labelledby="modalCD4" style="display: none;" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"A Night at the Opera"</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                      <p class="modal-body">
+                        1. "Death On Two Legs (Dedicated To...)" <br>
+                        2. "Lazing On A Sunday Afternoon" <br>
+                        3. "I'm In Love With My Car" <br>
+                        4. "You're My Best Friend" <br>
+                        5. "'39" <br>
+                        6. "Sweet Lady" <br>
+                        7. "Seaside Rendezvous"<br>
+                        8. "The Prophet's Song" <br>
+                        9. "Love of My Life" <br>
+                        10. "Good Company" <br>
+                        11. "Bohemian Rhapsody" <br>
+                        12. "God Save The Queen" <br>
+                      </p>
+                      <div class="modal-footer"><p>Publicación: 8 de noviembre de 1975</p></div>
+                  </div>
+                </div>
+              </div>                         
+                                    
+        <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+          <img src="/public/img/photos/cd5.jpg" class="card-img" alt="...">
+          <div class="btnInfo mx-auto mt-1">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD5">A Day at the Races</button></div></div>            
+          <div class="modal fade" id="modalCD5" tabindex="-1" aria-labelledby="modalCD5" style="display: none;" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"A Day at the Races"</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                      <p class="modal-body">
+                        1. "Tie Your Mother Down" <br>
+                        2. "You Take My Breath Away" <br>
+                        3. "Long Away" <br>
+                        4. "The Millionaire Waltz" <br>
+                        5. "You and I" <br>
+                        6. "Somebody To Love" <br>
+                        7. "White Man" <br>
+                        8. "Good Old-Fashioned Lover Boy" <br>
+                        9. "Drowse" <br>
+                        10. "Teo Torriate (Let us Cling Together)" <br>
+                      </p>
+                      <div class="modal-footer"><p>Publicación: 10 de diciembre de 1976</p></div>
+                  </div>
+                </div>
+              </div>          
+                              
+        <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+          <img src="/public/img/photos/cd6.jpg" class="card-img" alt="...">
+          <div class="btnInfo mx-auto mt-1">
+            <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD6">News of the World</button></div></div>            
+          <div class="modal fade" id="modalCD6" tabindex="-1" aria-labelledby="modalCD6" style="display: none;" aria-hidden="true">
+              <div class="modal-dialog">
+                <div class="modal-content">
+                      <div class="modal-header">
+                          <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"News of the World"</h1>
+                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                      <p class="modal-body">
+                        1. "We Will Rock You" <br>
+                        2. "We Are the Champions" <br>
+                        3. "Sheer Heart Attack" <br>
+                        4. "All Dead, All Dead" <br>
+                        5. "Spread Your Wings" <br>
+                        6. "Fight From The Inside" <br>
+                        7. "Get Down, Make Love" <br>
+                        8. "Sleeping On The Sidewalk" <br>
+                        9. "Who Needs You" <br>
+                        10. "It's Late" <br>
+                        11. "My Melancholy Blues" <br>
+                      </p>
+                      <div class="modal-footer"><p>Publicación: 28 de octubre de 1977</p></div>
+                  </div>
+                </div>
+              </div>         
+
+          <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+            <img src="/public/img/photos/cd7.jpg" class="card-img" alt="...">
+            <div class="btnInfo mx-auto mt-1">
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD7">Jazz</button></div></div>            
+            <div class="modal fade" id="modalCD7" tabindex="-1" aria-labelledby="modalCD7" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"Jazz"</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                        <p class="modal-body">
+                          1. "Mustapha" <br>
+                          2. "Fat Bottomed Girls" <br>
+                          3. "Jealousy" <br>
+                          4. "Bicycle Race" <br>
+                          5. "If You Can't Beat Them" <br>
+                          6. "Let Me Entertain You" <br>
+                          7. "Dead On Time" <br>
+                          8. "In Only Seven Days" <br>
+                          9. "Dreamer's Ball" <br>
+                          10. "Fun It" <br>
+                          11. "Leaving Home Ain't Easy" <br>
+                          12. "Don't Stop Me Now" <br>
+                          13. "More Of That Jazz" <br>
                         </p>
-                        <button class="btnCD btn" onclick="toggleCard(this)">Volver</button>
-                    </div>                
+                        <div class="modal-footer"><p>Publicación: 10 de noviembre de 1978</p></div>
+                    </div>
+                  </div>
                 </div>
-            </div>
-
-
-
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+    
+          <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+            <img src="/public/img/photos/cd8.jpg" class="card-img" alt="...">
+            <div class="btnInfo mx-auto mt-1">
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD8">The Game</button></div></div>            
+            <div class="modal fade" id="modalCD8" tabindex="-1" aria-labelledby="modalCD8" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"The Game"</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                        <p class="modal-body">
+                          1. "Play the Game" <br>
+                          2. "Dragon Attack" <br>
+                          3. "Another One Bites the Dust" <br>
+                          4. "Need Your Loving Tonight" <br>
+                          5. "Crazy Little Thing Called Love" <br>
+                          6. "Rock It (Prime Jive)" <br>
+                          7. "Don't Try Suicide" <br>
+                          8. "Sail Away Sweet Sister" <br>
+                          9. "Coming Soon" <br>
+                          10. "Save Me" <br>
+                        </p>
+                        <div class="modal-footer"><p>Publicación: 30 de junio de 1980</p></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content.</p>
+                                                   
+          <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+            <img src="/public/img/photos/cd10.jpg" class="card-img" alt="...">
+            <div class="btnInfo mx-auto mt-1">
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD9">	Hot Space</button></div></div>            
+            <div class="modal fade" id="modalCD9" tabindex="-1" aria-labelledby="modalCD9" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"Hot Space"</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                        <p class="modal-body">
+                          1. "Staying Power" <br>
+                          2. "Dancer" <br>
+                          3. "Back Chat" <br>
+                          4. "Body Language" <br>
+                          5. "Action This Day" <br>
+                          6. "Put Out the Fire" <br>
+                          7. "Life is Real (Song for Lennon)" <br>
+                          8. "Calling All Girls" <br>
+                          9. "Las Palabras de Amor"<br>
+                          10. "Cool Cat" <br>
+                          11. "Under Pressure" (con David Bowie) <br>
+                          12. "Don't Stop Me Now" <br>
+                          13. "More Of That Jazz" <br>
+                        </p>
+                        <div class="modal-footer"><p>Publicación: 21 de mayo de 1982</p></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-            <div class="col">
-              <div class="card">
-                <img src="..." class="card-img-top" alt="...">
-                <div class="card-body">
-                  <h5 class="card-title">Card title</h5>
-                  <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                      
+          <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+            <img src="/public/img/photos/cd11.jpg" class="card-img" alt="...">
+            <div class="btnInfo mx-auto mt-1">
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD10">The Works</button></div></div>            
+            <div class="modal fade" id="modalCD10" tabindex="-1" aria-labelledby="modalCD10" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"The Works"</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                        <p class="modal-body">
+                          1. "Radio Ga Ga" <br>
+                          2. "Tear It Up" <br>
+                          3. "It's a Hard Life" <br>
+                          4. "Man On The Prowl" <br>
+                          5. "Machines (Or 'Back To Humans')" <br>
+                          6. "I Want to Break Free" <br>
+                          7. "Keep Passing the Open Windows"<br>
+                          8. "Hammer to Fall" <br>
+                          9. "Is This the world we created...?" <br>
+                        </p>
+                        <div class="modal-footer"><p>Publicación: 27 de febrero de 1984</p></div>
+                    </div>
+                  </div>
                 </div>
-              </div>
-            </div>
-          </section>
-
-
-
-        <div class="card">
-            <div class="front">
-                <h4>Delante</h4>
-
-            </div>
-
-            <div class="back">
-                <h4>Detrás</h4>
-
-            </div>
-
-
-
-        
-
-
+                        
+          <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+            <img src="/public/img/photos/cd12.jpg" class="card-img" alt="...">
+            <div class="btnInfo mx-auto mt-1">
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD11">A Kind of Magic</button></div></div>            
+            <div class="modal fade" id="modalCD11" tabindex="-1" aria-labelledby="modalCD11" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"A Kind of Magic"</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                        <p class="modal-body">
+                          1. "One Vision" <br>
+                          2. "A Kind of Magic" <br>
+                          3. "One Year of Love" <br>
+                          4. "Pain Is So Close to Pleasure" <br>
+                          5. "Friends Will Be Friends" <br>
+                          6. "Who Wants to Live Forever" <br>
+                          7. "Gimme the Prize" <br>
+                          8. "Don't Lose Your Head" <br>
+                          9. "Princes of the Universe" <br>
+                        </p>
+                        <div class="modal-footer"><p>Publicación: 2 de junio de 1986</p></div>
+                    </div>
+                  </div>
+                </div>                        
+                        
+          <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+            <img src="/public/img/photos/cd13.jpg" class="card-img" alt="...">
+            <div class="btnInfo mx-auto mt-1">
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD12">	The Miracle</button></div></div>            
+            <div class="modal fade" id="modalCD12" tabindex="-1" aria-labelledby="modalCD12" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"	The Miracle"</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                        <p class="modal-body">
+                          1. "Party" <br>
+                          2. "Khashoggi's Ship" <br>
+                          3. "The Miracle" <br>
+                          4. "I Want It All" <br>
+                          5. "The Invisible Man" <br>
+                          6. "Breakthru" <br>
+                          7. "Rain Must Fall" <br>
+                          8. "Scandal" <br>
+                          9. "My Baby Does Me" <br>
+                          10. "Was It All Worth It" <br></p>
+                        <div class="modal-footer"><p>Publicación: 22 de mayo de 1989</p></div>
+                    </div>
+                  </div>
+                </div>  
+                        
+          <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+            <img src="/public/img/photos/cd14.jpg" class="card-img" alt="...">
+            <div class="btnInfo mx-auto mt-1">
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD13">Innuendo</button></div></div>            
+            <div class="modal fade" id="modalCD13" tabindex="-1" aria-labelledby="modalCD13" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"Innuendo"</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                        <p class="modal-body">
+                          1. "Innuendo" <br>
+                          2. "I'm Going Slightly Mad" <br>
+                          3. "Headlong" <br>
+                          4. "I Can't Live With You" <br>
+                          5. "Don't Try So Hard" <br>
+                          6. "Ride The Wild Wind" <br>
+                          7. "All God's People" <br>
+                          8. "These Are The Days Of Our Lives" <br>
+                          9. "Delilah" <br>
+                          10. "The Hitman" <br>
+                          11. "Bijou" <br>
+                          12. "The Show Must Go On" <br></p>
+                        <div class="modal-footer"><p>Publicación: 4 de febrero de 1991</p></div>
+                    </div>
+                  </div>
+                </div>  
+                        
+          <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
+            <img src="/public/img/photos/cd15.jpg" class="card-img" alt="...">
+            <div class="btnInfo mx-auto mt-1 mx-auto mt-1">
+              <button type="button" class="btn btn-secondary" data-bs-toggle="modal" data-bs-target="#modalCD14">	Made in Heaven</button></div></div>            
+            <div class="modal fade" id="modalCD14" tabindex="-1" aria-labelledby="modalCD14" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                  <div class="modal-content">
+                        <div class="modal-header">
+                            <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"	Made in Heaven"</h1>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                          </div>
+                        <p class="modal-body">
+                          1. "It's a Beautiful Day" <br>
+                          2. "Made in Heaven" <br>
+                          3. "Let Me Live" <br>
+                          4. "Mother Love" <br>
+                          5. "My Life Has Been Saved" <br>
+                          6. "I Was Born To Love You" <br>
+                          7. "Heaven for Everyone" <br>
+                          8. "Too Much Love Will Kill You" <br>
+                          9. "You Don't Fool Me" <br>
+                          10. "A Winter's Tale" <br>
+                          11. "It's a Beautiful Day (reprise)" <br>
+                          12. "Yeah" <br>
+                          13. "Track 13" <br></p>
+                        <div class="modal-footer"><p>Publicación: 6 de noviembre de 1995</p></div>
+                    </div>
+                  </div>
+                </div> 
+      </section>
 
     </main>
 
-    <footer>
-        <section id="rrss">
-            <div class="rrssIcons">
-                <a href="https://www.facebook.com/" target="_blank"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" alt="facebook logo" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F0D07E" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
-                      </svg >
-                </a>
-            </div>
-            
-            <div class="rrssIcons"> 
-                <a href="https:/instagram.com" target="_blank"> 
-                    <svg xmlns="http://www.w3.org/2000/svg" alt="instagram logo" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F0D07E" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
-                        <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
-                        <path d="M16.5 7.5l0 .01" />
-                      </svg>
-                </a>
-            </div>
+  <footer class="p-3 mb-2 bg-dark text-white">
+      <section id="rrss">
+          <div class="rrssIcons">
+              <a href="https://www.facebook.com/" target="_blank"> 
+                  <svg xmlns="http://www.w3.org/2000/svg" alt="facebook logo" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F0D07E" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M7 10v4h3v7h4v-7h3l1 -4h-4v-2a1 1 0 0 1 1 -1h3v-4h-3a5 5 0 0 0 -5 5v2h-3" />
+                    </svg >
+              </a>
+          </div>
+          
+          <div class="rrssIcons"> 
+              <a href="https:/instagram.com" target="_blank"> 
+                  <svg xmlns="http://www.w3.org/2000/svg" alt="instagram logo" class="icon icon-tabler icon-tabler-brand-instagram" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F0D07E" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M4 4m0 4a4 4 0 0 1 4 -4h8a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-8a4 4 0 0 1 -4 -4z" />
+                      <path d="M12 12m-3 0a3 3 0 1 0 6 0a3 3 0 1 0 -6 0" />
+                      <path d="M16.5 7.5l0 .01" />
+                    </svg>
+              </a>
+          </div>
 
-            <div class="rrssIcons">
-                <a href="https://twitter.com" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" alt="twitter logo" class="icon icon-tabler icon-tabler-brand-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F0D07E" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
-                        <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
-                      </svg>
-                </a>
-            </div>
+          <div class="rrssIcons">
+              <a href="https://twitter.com" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" alt="twitter logo" class="icon icon-tabler icon-tabler-brand-x" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F0D07E" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M4 4l11.733 16h4.267l-11.733 -16z" />
+                      <path d="M4 20l6.768 -6.768m2.46 -2.46l6.772 -6.772" />
+                    </svg>
+              </a>
+          </div>
 
-            <div class="rrssIcons">
-                <a href="https://youtube.com" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" alt="youtube logo" class="icon icon-tabler icon-tabler-brand-youtube" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F0D07E" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
-                        <path d="M10 9l5 3l-5 3z" />
-                      </svg>
-                </a>
-            </div>
+          <div class="rrssIcons">
+              <a href="https://youtube.com" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" alt="youtube logo" class="icon icon-tabler icon-tabler-brand-youtube" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F0D07E" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M2 8a4 4 0 0 1 4 -4h12a4 4 0 0 1 4 4v8a4 4 0 0 1 -4 4h-12a4 4 0 0 1 -4 -4v-8z" />
+                      <path d="M10 9l5 3l-5 3z" />
+                    </svg>
+              </a>
+          </div>
 
-            <div class="rrssIcons">
-                <a href="https://tiktok.com/es/" target="_blank">
-                    <svg xmlns="http://www.w3.org/2000/svg" alt="tik tok logo" class="icon icon-tabler icon-tabler-brand-tiktok" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F0D07E" fill="none" stroke-linecap="round" stroke-linejoin="round">
-                        <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
-                        <path d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z" />
-                      </svg>
-                </a>
-            </div>
-        </section>
+          <div class="rrssIcons">
+              <a href="https://tiktok.com/es/" target="_blank">
+                  <svg xmlns="http://www.w3.org/2000/svg" alt="tik tok logo" class="icon icon-tabler icon-tabler-brand-tiktok" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F0D07E" fill="none" stroke-linecap="round" stroke-linejoin="round">
+                      <path stroke="none" d="M0 0h24v24H0z" fill="none"/>
+                      <path d="M21 7.917v4.034a9.948 9.948 0 0 1 -5 -1.951v4.5a6.5 6.5 0 1 1 -8 -6.326v4.326a2.5 2.5 0 1 0 4 2v-11.5h4.083a6.005 6.005 0 0 0 4.917 4.917z" />
+                    </svg>
+              </a>
+          </div>
+      </section>
 
-        <section id="searchInput" class="m-4">
-            <input class="bg-opacity-50" type="search">
-        </section>
+      <section id="searchInput" class="m-4">
+          <input class="bg-opacity-50" type="search">
+      </section>
 
-        <section id="footerText" class="justify-content-evenly">
-            <div> <p>Términos y condiciones</p> </div>
-            <div> <p> Política de privacidad</p> </div> 
-        </section>
-        <section id="footerTextCopy"> <p>Copyright 2023 &copy; — Todos los derechos reservados</p></section>
-    </footer>
+      <section id="footerText" class="justify-content-evenly">
+          <div> <p>Términos y condiciones</p> </div>
+          <div> <p> Política de privacidad</p> </div> 
+      </section>
+      <section id="footerTextCopy"> <p>Copyright 2023 &copy; — Todos los derechos reservados</p></section>
+  </footer>   
     
 <script src="../../../node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>
 <script src="../discography/discography.js"></script>

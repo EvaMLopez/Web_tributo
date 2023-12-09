@@ -8,7 +8,7 @@
 </head>
 <body>
     <header>
-          <nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+          <nav class="navbar navbar-expand-lg navbar-dark bg-dark p-5">
             <div class="container-fluid">
               <img src="./public/img/Logo Queen.png" alt="Logo Queen Tributo"  width="80" height="64" class= "img-fluid" >
               <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNavDropdown" aria-controls="navbarNavDropdown" aria-expanded="false" aria-label="Toggle navigation">
@@ -17,7 +17,6 @@
               <div class="collapse navbar-collapse" id="navbarNavDropdown">
                 <ul class="navbar-nav">
                   <li class="nav-item"><a class="nav-link" aria-current="page" href="./public/page/discography/discography.html">Discografía</a></li>
-                  <li class="nav-item"><a class="nav-link" aria-current="page" href="./public/page/discography/disco.html">Disco_prueba</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Noticias</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Conciertos</a></li>
                   <li class="nav-item"><a class="nav-link" href="#">Galería</a></li>
@@ -29,72 +28,8 @@
             </div>
           </nav>      
           
-                 <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded ">
-            <img src="./public/img/photos/cd1.jpg" class="card-img" alt="...">
-            <div class="card-img-overlay"></div>
-          </div>
 
-          <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalLive">QUEEN</button>
-         
-          <div class="modal fade" id="modalCD1" tabindex="-1" aria-labelledby="exampleModalLiveLabel" style="display: none;" aria-hidden="true">
-              <div class="modal-dialog">
-                  <div class="modal-content">
-                      <div class="modal-header">
-                          <h1 class="modal-title fs-5" id="modalCD1">"Queen". Publicación: 13 de julio de 1973</h1>
-                          <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                      </div>
-                      <div class="modal-body">
-                        <p>1. "Keep Yourself Alive"</p>
-                        <p>2. "Doing All Right"</p>
-                        <p>3. "Great King Rat"</p>
-                        <p>4. "My Fairy King"</p>
-                        <p>5. "Liar"</p>
-                        <p>6. "The Night Comes Down"</p>
-                        <p>7. "Modern Times Rock 'n' Roll"</p>
-                        <p>8. "Son and Daughter"</p>
-                        <p>9. "Jesus"</p>
-                        <p>10. "Seven Seas of Rhye... "</p>
-                      </div>
-                      <div class="modal-footer">
-                          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                      </div>
-                  </div>
-              </div>
-          </div>
-          
-      <div class="card bg-dark text-white shadow p-3 mb-5 bg-body-tertiary rounded "><img src="./public/img/photos/cd2.jpg" class="card-img" alt="...">
-        <div class="card-img-overlay"></div></div>
-
-        <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#modalCD2">QUEEN II</button>
-       
-        <div class="modal fade" id="exampleModalLive" tabindex="-1" aria-labelledby="modalCD2" style="display: none;" aria-hidden="true">
-            <div class="modal-dialog">
-                <div class="modal-content">
-                    <div class="modal-header">
-                        <h1 class="modal-title fs-5" id="exampleModalLiveLabel">"Queen II". Publicación: 8 de marzo de 1974</h1>
-                        <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
-                    </div>
-                    <div class="modal-body">
-                      <p>1. "Procession"</p>
-                      <p>2. "Father to Son"</p>
-                      <p>3. "White Queen (As It Began)"</p>
-                      <p>4. "Some Day One Day"</p>
-                      <p>5. "The Loser in the End"</p>
-                      <p>6. "Ogre Battle"</p>
-                      <p>7. "The Fairy Feller's Master-Stroke"</p>
-                      <p>8. "Nevermore"</p>
-                      <p>9. "The March of the Black Queen"</p>
-                      <p>10. "Funny How Love Is"</p>
-                      <p>11. "Seven Seas of Rhye"</p>
-                    </div>
-                    <div class="modal-footer">
-                        <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Cerrar</button>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-
+            
     </header>
 
     <main>
@@ -128,9 +63,8 @@
 
     </main>
 
-    <footer>
-
-        <section id="rrss">
+    <footer class="bg-dark text-white">
+        <div id="rrss">
             <div class="rrssIcons">
                 <a href="https://www.facebook.com/" target="_blank"> 
                     <svg xmlns="http://www.w3.org/2000/svg" alt="facebook logo" class="icon icon-tabler icon-tabler-brand-facebook" width="24" height="24" viewBox="0 0 24 24" stroke-width="1.5" stroke="#F0D07E" fill="none" stroke-linecap="round" stroke-linejoin="round">
@@ -179,18 +113,17 @@
                       </svg>
                 </a>
             </div>
-        </section>
+        </div>
 
-        <section id="searchInput" class="m-4">
-            <input class="bg-opacity-50" type="search">
-        </section>
+        <div id="searchInput" class="m-4">
+            <input class="bg-opacity-50" type="search" placeholder="buscar"> 
+        </div>
 
-        <section id="footerText" class="justify-content-evenly">
+        <div id="footerText" class="justify-content-evenly">
             <div> <p>Términos y condiciones</p> </div>
             <div> <p> Política de privacidad</p> </div> 
-        </section>
-        <section id="footerTextCopy"> <p>Copyright 2023 &copy; — Todos los derechos reservados</p></section>
-
+        </div>
+        <div id="footerTextCopy"> <p>Copyright 2023 &copy; — Todos los derechos reservados</p></div>
     </footer>    
 
 <script src="./node_modules/bootstrap/dist/js/bootstrap.bundle.min.js"></script>

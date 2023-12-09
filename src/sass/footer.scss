@@ -14,7 +14,7 @@
        } */
     border-radius: 50%;
     border: 2px solid $ppal;
-    background-color: $second;
+    background-color: gray;
     padding: 5px;
     cursor: pointer;   
 }
@@ -31,17 +31,21 @@ svg:hover {
 
 #footerText {
     @include mixin.flex-between;
+    p {
+        cursor: pointer;    
+    }
+    
 }
 
 #footerTextCopy {
     text-align: center;
 }
 
-
-footer {
-    background-color: $second;
-    padding: 10px 0;
-    p {
-        font-size: 12px;
-    }
+#rrss {
+    margin: 5px;
+    padding: 2x;
+    gap: 20px
 }
+
+.btnInfo {margin-top: 2px
+    ;}
