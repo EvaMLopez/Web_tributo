@@ -51,6 +51,11 @@ svg:hover {
   margin-top: 2px;
 }
 
+.carousel-inner {
+  text-align: center;
+  display: flex;
+}
+
 .card {
   position: relative;
   width: 100%;
@@ -220,7 +225,6 @@ h5, .h5 {
 
 h1, .h1 {
   text-align: center;
-  margin-top: 50px;
   padding: 25px;
 }
 
