@@ -11,14 +11,15 @@
     stroke: $ppal;    
     path {
         fill: currentColor !important;
-       } */
-    border-radius: 50%;
-    border: 2px solid $ppal;
-    background-color: gray;
-    padding: 5px;
-    cursor: pointer;   
-}
-
+       } 
+       border-radius: 50%;
+       border: 2px solid $ppal;
+       background-color: gray;
+       padding: 5px;
+       cursor: pointer;   
+       */
+    }
+    
 svg:hover {
     fill: black;    
   }
@@ -33,8 +34,8 @@ svg:hover {
     @include mixin.flex-between;
     p {
         cursor: pointer;    
+        font-size: 14px;
     }
-    
 }
 
 #footerTextCopy {
@@ -44,8 +45,13 @@ svg:hover {
 #rrss {
     margin: 5px;
     padding: 2x;
-    gap: 20px
+    gap: 10px
 }
 
-.btnInfo {margin-top: 2px
-    ;}
+.btnInfo {
+    margin-top: 2px;
+}
+
+footer {
+    font-size: 14px;
+}
