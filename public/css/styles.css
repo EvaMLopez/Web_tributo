@@ -62,6 +62,11 @@ footer {
   display: flex;
 }
 
+/* 
+.slide img {
+    height: 75vh;
+}
+ */
 .card {
   position: relative;
   width: 100%;
