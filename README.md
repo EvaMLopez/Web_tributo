@@ -1,6 +1,3 @@
-# Web-tributo
-Crearemos mi primer sitio web de tributo
-
 ## DESCRIPCIÓN DEL PROYECTO 📓
 Página web tributo a la banda The Queen. 
 
@@ -22,7 +19,7 @@ Página web tributo a la banda The Queen.
 
 ### MOBILE 📱
 <div>
-    <img src="/public/img/readme/figma mobile.JPG.JPG">
+    <img src="/public/img/readme/mobile.JPG">
 </div>
 
 ## USER FLOW
@@ -31,13 +28,15 @@ Página web tributo a la banda The Queen.
 </div>
 
 ## LENGUAJES Y HERRAMIENTAS UTILIZADAS
-<img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg">
-<img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg">
-<img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg">
-<img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg">
-<img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg">
-<img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg">
-<img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg">
+<div>
+    <img src="https://github.com/devicons/devicon/blob/master/icons/html5/html5-original.svg" width="40" height="40">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/javascript/javascript-plain.svg" width="40" height="40">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/vscode/vscode-original.svg" width="40" height="40">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/bootstrap/bootstrap-original.svg" width="40" height="40">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/sass/sass-original.svg" width="40" height="40">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/github/github-original.svg" width="40" height="40">
+    <img src="https://github.com/devicons/devicon/blob/master/icons/git/git-original.svg" width="40" height="40">
+</div>
 
 ## INSTALACIÓN DEL PROYECTO 
 - SASS: 
